@@ -17,6 +17,16 @@
   </div>
 
   <div class="field">
+    <%= form.label :author %>
+    <%= form.text_area :author, id: :book_author %>
+  </div>
+
+  <div class="field">
+    <%= form.label :picture %>
+    <%= form.file_field :picture, id: :book_icture %>
+  </div>
+
+  <div class="field">
     <%= form.label :memo %>
     <%= form.text_area :memo %>
   </div>

@@ -6,6 +6,16 @@
 </p>
 
 <p>
+	<strong>Author</strong>
+	<%= @book.author %>	
+</p>
+
+<p>
+	<strong>Picture</strong>
+	<%= image_tag(@book.picture_url) if @book.picture.present? %>
+</p>
+
+<p>
   <strong>Memo:</strong>
   <%= @book.memo %>
 </p>
