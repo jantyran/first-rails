@@ -70,3 +70,7 @@ gem 'kaminari'
 gem 'seed-fu'
 
 gem 'devise'
+
+gem 'omniauth-facebook'
+
+gem 'thin'
