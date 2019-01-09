@@ -1,0 +1,61 @@
+ja:
+  hello: "ハローワールド"
+  time:
+    formats:
+      default: ! '%Y/%m/%d %H:%M:%S'
+  books:
+    index:
+      title: "本"
+      book_title: "タイトル"
+      book_memo: "メモ"
+      book_author: "著者"
+      book_pic: "参考画像"
+      detail: "詳細"
+      edit: "編集"
+      delete: "削除"
+      add_new: "追加"
+    new:
+      title: "本の追加"
+      book_title: "タイトル"
+      book_memo: "メモ"
+      book_author: "著者"
+      book_pic: "参考画像"
+      detail: "詳細"
+      edit: "編集"
+      delete: "削除"
+      add_new: "追加"
+      back: "戻る"
+    show:
+      title: "本の追加"
+      book_title: "タイトル"
+      book_memo: "メモ"
+      book_author: "著者"
+      book_pic: "参考画像"
+      detail: "詳細"
+      edit: "編集"
+      delete: "削除"
+      add_new: "追加"
+      back: "戻る"
+    edit:
+      title: "編集"
+      book_title: "タイトル"
+      book_memo: "メモ"
+      book_author: "著者"
+      book_pic: "参考画像"
+      detail: "詳細"
+      edit: "編集"
+      delete: "削除"
+      add_new: "追加"
+      back: "戻る"
+  helpers:
+    label:
+      book:
+        title: "題名"
+        memo: "メモ"
+        author: "著者"
+        picture: "参考画像"
+        detail: "詳細"
+    submit:
+      create: "登録する"
+      update: "更新する"
+      submit: "保存する"
