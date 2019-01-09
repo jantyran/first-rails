@@ -257,9 +257,7 @@ Devise.setup do |config|
   # Add a new OmniAuth provider. Check the wiki for more information on setting
   # up on your models and hooks.
   # config.omniauth :github, 'APP_ID', 'APP_SECRET', scope: 'user,public_repo'
-
   config.omniauth :facebook, "281410035902174", "7c33a0dbf083395624fc97c690858b37", scope: 'email', info_fields: 'email,name'
-
 
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or
@@ -290,6 +288,4 @@ Devise.setup do |config|
   # ActiveSupport.on_load(:devise_failure_app) do
   #   include Turbolinks::Controller
   # end
-
-
 end

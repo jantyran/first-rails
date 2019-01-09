@@ -64,4 +64,5 @@ Rails.application.configure do
 
   # store file location
   config.active_storage.service = :local
+
 end

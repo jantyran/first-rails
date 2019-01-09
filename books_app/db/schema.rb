@@ -50,6 +50,7 @@ ActiveRecord::Schema.define(version: 2019_01_09_055114) do
     t.datetime "remember_created_at"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+<<<<<<< HEAD
     t.string "provider"
     t.string "uid"
     t.string "image"
