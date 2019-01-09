@@ -76,3 +76,5 @@ gem 'omniauth-facebook'
 gem 'thin'
 
 gem 'mini_magick'
+
+gem 'devise-i18n'
